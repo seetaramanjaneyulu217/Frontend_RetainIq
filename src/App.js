@@ -1,9 +1,12 @@
+import { Toaster } from "react-hot-toast";
+import Home from "./screens/Home";
 
 function App() {
   return (
-    <div className="text-3xl text-blue-400">
-      Table
-    </div>
+    <>
+      <Toaster />
+      <Home />
+    </>
   )
 }
 
